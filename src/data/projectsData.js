@@ -1,8 +1,16 @@
-import eight from '../assets/svg/projects/eight.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import six from '../assets/svg/projects/six.svg'
+
 import devlink from '../assets/project-img/devlink.png'
 import gameQuest from '../assets/project-img/gameQuest.png'
+import cine4u from '../assets/project-img/cine4u.png'
+import tastyLane from '../assets/project-img/ttl.png'
+import episodeRandomizer from '../assets/project-img/Episode.png'
+import movieDashboard from '../assets/project-img/first.png'
+import cryptoMeter from '../assets/project-img/cryptometer.png'
+import bootstrapPhonePe from '../assets/project-img/bootstrap.png'
+import aheadApp from '../assets/project-img/aheadApp.png'
+import two from '../assets/project-img/2048.png'
+
+
 
 
 export const projectsData = [
@@ -31,7 +39,7 @@ export const projectsData = [
         tags: ['React', 'CSS', 'API','Bootstrap'],
         code: 'https://github.com/VibhashDwivedi/Cine--4U',
         demo: 'https://cine-4-u-vibhashdwivedi.vercel.app/',
-        image: eight
+        image: cine4u
     },
     {
         id: 4,
@@ -40,7 +48,7 @@ export const projectsData = [
         tags: ['React', 'react-awesome-reveal','Bootstrap'],
         code: 'https://github.com/VibhashDwivedi/The-Tasty-Lane',
         demo: 'https://the-tasty-lane-vibhashdwivedi.vercel.app/',
-        image: eight
+        image: tastyLane
     },
     {
         id: 5,
@@ -49,7 +57,7 @@ export const projectsData = [
         tags: ['React', 'Python', 'Flask'],
         code: 'https://github.com/VibhashDwivedi/Episode-Randomizer',
         demo: 'https://episode-randomizer-vibhashdwivedi.vercel.app/',
-        image: eight
+        image: episodeRandomizer
     },
     {
         id: 6,
@@ -58,7 +66,7 @@ export const projectsData = [
         tags: ['HTML', 'CSS', 'Bootstrap'],
         code: 'https://github.com/VibhashDwivedi/Movie-Dashboard',
         demo: 'https://vibhashdwivedi.github.io/Movie-Dashboard/',
-        image: eight
+        image: movieDashboard
     },
     {
         id: 7,
@@ -67,7 +75,7 @@ export const projectsData = [
         tags: ['React', 'API', 'Bootstrap',],
         code: 'https://github.com/VibhashDwivedi/CryptoMeter',
         demo: 'https://cryptometer-vibhashdwivedi.vercel.app/',
-        image: eight
+        image: cryptoMeter
     },
     {
         id: 8,
@@ -76,7 +84,7 @@ export const projectsData = [
         tags: ['HTML', 'CSS', 'Bootstrap'],
         code: 'https://github.com/VibhashDwivedi/Bootstrap--PhonePe',
         demo: 'https://bootstrap-phone-pe-vibhashdwivedi.vercel.app/',
-        image: eight
+        image: bootstrapPhonePe
     },
     {
         id: 9,
@@ -85,7 +93,7 @@ export const projectsData = [
         tags: ['React', 'CSS', 'Bootstrap',],
         code: 'https://github.com/VibhashDwivedi/Ahead--App',
         demo: 'https://vibhashdwivedi.github.io/Ahead--App/',
-        image: eight
+        image: aheadApp
     },
     {
         id: 10,
@@ -94,7 +102,7 @@ export const projectsData = [
         tags: ['HTML', 'CSS', 'Bootstrap','JS'],
         code: 'https://github.com/VibhashDwivedi/2048',
         demo: 'https://2048-vibhashdwivedi.vercel.app/',
-        image: eight
+        image: two
     },
     
     
