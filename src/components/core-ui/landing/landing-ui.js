@@ -4,7 +4,7 @@ import { HashLink as NavLink } from 'react-router-hash-link';
 import Typed from 'react-typed';
 import { headerData } from '../../../data/headerData';
 import './landing.css';
-
+import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 import {
     FaFacebook, FaGithub, FaLinkedin, FaTwitter
 } from 'react-icons/fa';
@@ -14,11 +14,11 @@ function LandingUI({ theme, drawerOpen, classes }) {
 
 
     return (
-        <div className='landing' style={{ backgroundColor: theme.quaternary }}>
+        <div className='landing' style={{ backgroundColor: theme.secondary }}>
             <div className='landing--container'>
                 <div
                     className='landing--container-left'
-                    style={{ backgroundColor: theme.quaternary }}
+                    style={{ backgroundColor: theme.primary }}
                 >
                     <div className='lcl--content'>
                         {contactsData.linkedIn && (
@@ -29,7 +29,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                             >
                                 <FaLinkedin
                                     className='landing--social linkedin-icon'
-                                    style={{ color: theme.primary }}
+                                    style={{ color: theme.secondary }}
                                     aria-label='LinkedIn'
                                 />
                             </a>
@@ -42,34 +42,34 @@ function LandingUI({ theme, drawerOpen, classes }) {
                             >
                                 <FaGithub
                                     className='landing--social'
-                                    style={{ color: theme.primary }}
+                                    style={{ color: theme.secondary }}
                                     aria-label='GitHub'
                                 />
                             </a>
                         )}
-                        {contactsData.twitter && (
+                        {contactsData.leetcode && (
                             <a
-                                href={contactsData.twitter}
+                                href={contactsData.leetcode}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <SiLeetcode
                                     className='landing--social twitter-icon'
-                                    style={{ color: theme.primary }}
-                                    aria-label='Twitter'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='LeetCode'
                                 />
                             </a>
                         )}
-                        {contactsData.facebook && (
+                        {contactsData.gfg && (
                             <a
-                                href={contactsData.facebook}
+                                href={contactsData.gfg}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaFacebook
+                                <SiGeeksforgeeks
                                     className='landing--social facebook-icon'
-                                    style={{ color: theme.primary }}
-                                    aria-label='facebook'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='gfg'
                                 />
                             </a>
                         )}
@@ -96,13 +96,14 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Backend Developer',
+                                'Learner',
+                                'Programmer',
                                 'Frontend Developer',
                                 'Fullstack Developer']}
                             typeSpeed={40}
                             backSpeed={50}
                             className="typed-header"
-                            style={{ color: theme.primary, fontSize: '20px' }}
+                            style={{  fontSize: '20px' }}
                             loop
                         />
                         <p>{headerData.desciption}</p>

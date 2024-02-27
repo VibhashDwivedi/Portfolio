@@ -16,7 +16,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
     return (
         <div className='navbar'>
             <div className='navbar--container'>
-                <h1 style={{ color: theme.primary }}>
+                <h1 style={{ color: theme.secondary }}>
                     {shortname(headerData.name)}
                 </h1>
 
@@ -127,7 +127,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                             </div>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/#blog'
                                 smooth={true}
@@ -143,7 +143,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink

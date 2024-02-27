@@ -2,6 +2,7 @@ import { IconButton, Snackbar, SnackbarContent } from '@mui/material';
 import React, { useContext } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
 import { FaFacebook, FaGithub, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { IoClose } from 'react-icons/io5';
@@ -165,17 +166,19 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
             </div>
 
             <div className='socialmedia-icons'>
-              {contactsData.twitter && (
+              
+             
+              {contactsData.linkedIn && (
                 <a
-                  href={contactsData.twitter}
+                  href={contactsData.linkedIn}
                   target='_blank'
                   rel='noreferrer'
                   className={classes.socialIcon}
                 >
-                  <FaTwitter aria-label='Twitter' />
+                  <FaLinkedinIn aria-label='LinkedIn' />
                 </a>
               )}
-              {contactsData.github && (
+               {contactsData.github && (
                 <a
                   href={contactsData.github}
                   target='_blank'
@@ -185,14 +188,14 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   <FaGithub aria-label='GitHub' />
                 </a>
               )}
-              {contactsData.linkedIn && (
+              {contactsData.leetcode && (
                 <a
-                  href={contactsData.linkedIn}
+                  href={contactsData.leetcode}
                   target='_blank'
                   rel='noreferrer'
                   className={classes.socialIcon}
                 >
-                  <FaLinkedinIn aria-label='LinkedIn' />
+                  <SiLeetcode aria-label='Twitter' />
                 </a>
               )}
 
@@ -228,14 +231,14 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   <FaStackOverflow aria-label='Stack Overflow' />
                 </a>
               )}
-              {contactsData.facebook && (
+              {contactsData.gfg && (
                 <a
-                  href={contactsData.facebook}
+                  href={contactsData.gfg}
                   target='_blank'
                   rel='noreferrer'
                   className={classes.socialIcon}
                 >
-                  <FaFacebook aria-label='facebook' />
+                  <SiGeeksforgeeks aria-label='facebook' />
                 </a>
               )}
             </div>
