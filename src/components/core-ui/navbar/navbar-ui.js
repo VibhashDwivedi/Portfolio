@@ -96,7 +96,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
 
                         <Fade left>
                             <NavLink
-                                to='/#resume'
+                                to='/#skills'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -106,30 +106,17 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Resume
+                                        skills
                                     </span>
                                 </div>
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
-                            <div className={classes.drawerItem} onClick={changeTheme}>
-                                {isDark ?
-                                    <BsFillSunFill className={classes.drawerIcon} />
-                                    :
-                                    <BsFillMoonFill className={classes.drawerIcon} />
-                                }
-                                <span className={classes.drawerLinks}>
-                                    {
-                                        isDark ? "Light" : "Dark"
-                                    }
-                                </span>
-                            </div>
-                        </Fade>
+                        
 
-                        {/* <Fade left>
+                        <Fade left>
                             <NavLink
-                                to='/#blog'
+                                to='/#projects'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -139,11 +126,11 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Blog
+                                        Projects
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade> */}
+                        </Fade>
 
                         <Fade left>
                             <NavLink
@@ -160,6 +147,20 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                                 </div>
                             </NavLink>
                         </Fade>
+                        {/* <Fade left>
+                            <div className={classes.drawerItem} onClick={changeTheme}>
+                                {isDark ?
+                                    <BsFillSunFill className={classes.drawerIcon} />
+                                    :
+                                    <BsFillMoonFill className={classes.drawerIcon} />
+                                }
+                                <span className={classes.drawerLinks}>
+                                    {
+                                        isDark ? "Light" : "Dark"
+                                    }
+                                </span>
+                            </div>
+                        </Fade> */}
                     </div>
                 </div>
             </Drawer>
