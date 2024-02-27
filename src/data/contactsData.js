@@ -5,5 +5,5 @@ export const contactsData = {
     github: 'https://github.com/VibhashDwivedi',
     linkedIn: 'https://www.linkedin.com/in/vibhash-dwivedi/',
     leetcode: 'https://leetcode.com/vibhash_dwivedi/',
-    gfg: 'https://auth.geeksforgeeks.org/user/vibhashdwi1005',
+    // gfg: 'https://auth.geeksforgeeks.org/user/vibhashdwi1005',
 }
