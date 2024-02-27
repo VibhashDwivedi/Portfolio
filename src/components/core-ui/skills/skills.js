@@ -16,7 +16,7 @@ function Skills() {
     return (
         <div className="skills" style={{ backgroundColor: theme.secondary }}>
             <div className="skillsHeader">
-                <h2 style={{ color: theme.primary, fontSize:'50px' }}>Skills</h2>
+                <h2 className='skills-head' style={{ color: theme.primary }}>Skills</h2>
             </div>
             <div className="skillsContainer">
                 <div className="skill--scroll">
