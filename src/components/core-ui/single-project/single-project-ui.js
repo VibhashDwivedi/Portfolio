@@ -12,7 +12,7 @@ function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, class
             <div
                 key={id}
                 className='singleProject'
-                style={{ backgroundColor: theme.quaternary }}
+                style={{ backgroundColor: theme.primary }}
             >
                 <div className='projectContent'>
                     <h2
@@ -21,7 +21,7 @@ function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, class
                     >
                         {name}
                     </h2>
-                    <img src={image ? image : placeholder} alt={name} />
+                    <img src={image ? image : placeholder} alt={name} height={'30px'} />
                     <div className='project--showcaseBtn'>
                         <a
                             href={demo}

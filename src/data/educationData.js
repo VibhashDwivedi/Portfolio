@@ -1,10 +1,10 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Noakhali Government College',
+        institution: 'SRMCEM, Lucknow, India',
         course: 'Bachelor Degree',
         startYear: '2020',
-        endYear: 'Present'
+        endYear: '2024'
     },
     {
         id: 2,
