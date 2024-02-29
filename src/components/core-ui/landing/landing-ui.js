@@ -60,7 +60,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 />
                             </a>
                         )}
-                        {contactsData.gfg && (
+                        {/* {contactsData.gfg && (
                             <a
                                 href={contactsData.gfg}
                                 target='_blank'
@@ -72,7 +72,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     aria-label='gfg'
                                 />
                             </a>
-                        )}
+                        )} */}
                     </div>
                 </div>
                 <img
